@@ -79,12 +79,13 @@ h5 {
     font-size: 23px;
 
 }
+
 form {
     border: 1px solid black;
-    padding: 16px;
+    padding: 13px;
     margin-top: 19px;
-    padding-right:16px;
-    padding-bottom: 15px;
+    padding-right:0;
+    padding-bottom: 0;
 }
 
 input {
@@ -93,6 +94,7 @@ input {
     margin-bottom: 21px;
     padding-top: 4px;
     padding-bottom: 4px;
+   
 }
 
 
@@ -195,19 +197,24 @@ header h1{
    
 }
 
-header, main, footer {
+header, main, footer{
     width:1024px;
     background-color: #d4e9e7;
     margin : 0 auto;
 }
 
-
+footer {
+    width:958px;
+    background-color: #d4e9e7;
+    margin : 0 auto;
+}
 
 footer{
     text-align: right;
     background-color: #d4e9e7;
     padding-top: 36px;
     padding-bottom: 38px;
+    padding:33px;
 }
 
 main {
@@ -219,6 +226,10 @@ main {
 .lines {
     border-radius: 2px;
     border-color: black;
+}
+
+.footer {
+    
 }
 
 
