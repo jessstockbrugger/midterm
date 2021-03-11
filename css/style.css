@@ -204,10 +204,11 @@ header, main, footer {
 
 
 footer{
-    height: 86px;
     text-align: right;
-    background-color: pink;
-    padding
+    background-color: #d4e9e7;
+    padding-top: 36px;
+    padding-bottom: 38px;
+   
 }
 
 main {
